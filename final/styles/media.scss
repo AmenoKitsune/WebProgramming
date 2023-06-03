@@ -1,0 +1,172 @@
+@media screen and (max-width: 450px){
+    
+    section, header{
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .btn{
+        padding: 12px 128px;
+    }
+    .sectiontitle{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .header{
+        margin: 0;
+        display: block;
+        text-align: center;
+        margin-bottom: 64px;
+        &__logo{
+            display: none;
+        }
+        &__navlist{
+            display: block;
+            animation: none;
+        }
+        &__navitem{
+            border: 2px solid;
+            border-color: white;
+            border-radius: 20px;
+            font-size: 24px;
+            padding: 12px 128px;
+            margin-bottom: 12px;
+        }
+    }
+
+    .hi{
+
+        &__text{
+            animation: none;
+            width: fit-content;
+        }
+        &__box{
+            margin: 64px auto;
+            display: block;
+            animation: none;
+        }
+        &__boxitem{
+            margin-bottom: 20px;
+        }
+        &__avatar{
+            animation: none;
+        }
+        &__box{
+            width: fit-content;
+        }
+        &__boxitem{
+            width: auto;
+        }
+    }
+
+    .whoiam{
+        margin: 0;
+        margin-bottom: 64px;
+        img{
+            display: none;
+        }
+        &__content{
+            text-align: center;
+            margin: 0;
+            &--txt{
+                margin-bottom: 24px;
+            }
+        }
+
+    }
+
+    .myskills{
+        margin: 0;
+        display: block;
+        margin-bottom: 64px;
+
+        a{
+            display: none;
+        }
+
+        &__content{
+            margin: 0;
+            text-align: center;
+        }
+
+        &__skills{
+            display: block;
+            width: fit-content;
+        }
+
+        &__row{
+            justify-content: center;
+            width: fit-content;
+        }
+    }
+
+    .myworks{
+        margin: 0;
+        margin-bottom: 64px;
+        &__container{
+            display: block;
+        }
+        &__box{
+            &--item{
+                // &:first-child{
+                //     margin-bottom: 0;
+                // }
+                margin-bottom: 32px;
+            }
+        }
+    }
+
+    .testimonials{
+        margin-bottom: 64px;
+        &__container{
+            display: block;
+
+            &--item{
+                width: fit-content;
+            }
+
+            &--item:not(:last-child){
+                margin-bottom: 16px;
+            }
+        }
+    }
+
+    .startaproject{
+
+        padding: 32px 32px;
+
+        &__container{
+            display: block;
+            width: fit-content;
+        }
+
+        &__content{
+            width: fit-content;
+        }
+
+        &__item:not(:last-child){
+            margin-bottom: 16px;
+        }
+
+        &__item{
+            text-align: center;
+        }
+    }
+
+    .footer{
+        padding: 0;
+        height: auto;
+        &__author{
+            display: none;
+        }
+
+        &__container{
+            flex-wrap: wrap;
+        }
+
+        &__newsletter{
+            margin-top: 32px;
+        }
+    }
+}
